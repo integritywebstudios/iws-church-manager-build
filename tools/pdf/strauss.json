@@ -1,0 +1,17 @@
+{
+	"target_directory": "vendor-pdf",
+	"namespace_prefix": "IWSCM\\Vendor\\Pdf\\",
+	"classmap_prefix": "IWSCM_Vendor_Pdf_",
+	"constant_prefix": "IWSCM_VENDOR_PDF_",
+	"functions_prefix": "iwscm_vendor_pdf_",
+	"packages": [
+		"dompdf/dompdf"
+	],
+	"update_call_sites": false,
+	"delete_vendor_packages": false,
+	"delete_vendor_files": false,
+	"include_modified_date": false,
+	"include_author": false,
+	"include_root_autoload": false,
+	"classmap_output": false
+}
