@@ -62,7 +62,7 @@ function iwscm_php_files( $stage ) {
 }
 
 function iwscm_note( &$notes, $file, $note ) {
-	$notes[ $file ][] = array( IWSCM_REWRITE_DATE, $note );
+	$notes[ $file ][] = array( IWSCM_REWRITE_DATE, $note . ' (tools/pdf/rewrite.php)' );
 }
 
 /** Rewrites every heredoc/nowdoc in $code; returns the new code and adds one entry per rewrite to $done. */
